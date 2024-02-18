@@ -53,6 +53,14 @@ overall response quality obviously is noticeably reduced in contrast
 to state-of-the-art chat-bots, like the commercial *GPT-3.5/GPT-4* based
 *OpenAI ChatGPT*.
 
+Screenshots
+-----------
+
+![Installer Start](07-Screenshots/installer-start.png "Installer Start")
+![Installer Features](07-Screenshots/installer-features.png "Installer Features")
+![Faraday Home](07-Screenshots/faraday-home.png "Faraday Home")
+![Faraday Translator](07-Screenshots/faraday-translator.png "Faraday Translator")
+
 Copyright & License
 -------------------
 
