@@ -62,6 +62,6 @@ Copyright & License
 - Mistral 7B (LLM) is Copyright &copy; 2023-2024 Mistral AI<br/>
   Mistral 7B (LLM) is distributed as Open Source under Apache 2.0 license.
 
-- msg Local AI: Chat (Installer) is Copyright &copy; 2024 msg systems ag<br/>
-  msg Local AI: Chat (Installer) is distributed as Open Source under Apache 2.0 license.
+- msg Local AI: Chat (Configuration & Installer) is Copyright &copy; 2024 msg systems ag<br/>
+  msg Local AI: Chat (Configuration & Installer) is distributed as Open Source under Apache 2.0 license.
 
