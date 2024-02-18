@@ -34,7 +34,9 @@ jobs:
             -   name: Upload Github Pages
                 uses: actions/upload-pages-artifact@v2
                 with:
-                    path: "08-Website"
+                    path: |
+                        08-Website
+                        !08-Website/node_modules
             -   name: Deploy GitHub Pages
                 id:   deployment
                 uses: actions/deploy-pages@v2
