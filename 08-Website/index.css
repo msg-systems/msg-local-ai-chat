@@ -131,7 +131,8 @@ a.button {
     line-height: 22pt;
 }
 a.button:hover {
-    background-color: #f0f0f0;
+    background: #ffffff !important;
+    color: #111111;
 }
 
 div.footer {
