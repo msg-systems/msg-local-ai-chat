@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Multimediale Didaktik</title>
+        <meta name="description" content=""/>
+        <meta name="author" content="Dr. Ralf S. Engelschall"/>
+        <link rel="stylesheet" href="lib/normalize/normalize.css"/>
+        <link rel="stylesheet" href="lib/typopro/TypoPRO-SourceSansPro/TypoPRO-SourceSansPro.css"/>
+        <link rel="stylesheet" href="lib/fontawesome/fontawesome.css"/>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body>
+        <div class="row">
+            <div class="left box-gradient">
+                <b>msg Local AI: Chat</b> is an application to locally run
+                Large Language Model (LLM) based generative Artificial
+                Intelligence (AI) characters (aka "chat-bots").
+                <p/>
+                It is based on the freely available <a href="https://faraday.dev">Faraday</a> LLM
+                host application, four pre-installed Open Source
+                <a href="https://mistral.ai/news/announcing-mistral-7b/">Mistral 7B</a> LLMs, and 24
+                pre-configured Faraday AI characters.
+                <p/>
+                Each Faraday AI character is a
+                combination of a pre-selected LLM (fine-tuned for instruct or chat use),
+                pre-configured LLM parameters, and a corresponding pre-selected LLM.
+            </div>
+            <div class="right box-light centered">
+                <a href="https://www.msg.group/"><img class="logo-msg" src="images/logo-msg.svg"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left box-light">
+                <img class="screenshot dropshadow" src="images/installer-start.png"/>
+            </div>
+            <div class="right box-gradient">
+                <b>msg Local AI: Chat</b> ships as an installer for the <i>Windows</i>
+                operation system which installs the <i>Faraday</i> LLM host application, the
+                <i>Mistral 7B</i> LLMs and pre-configures <i>Faraday</i> for the provided AI characters.
+
+                <a class="button" href="FIXME">
+                    <i class="fa fa-download"></i> &nbsp; Download<br/>
+                    <b>msg Local AI: Chat</b><br/>
+                    Installer (0.9.1)
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left box-gradient fn-small">
+                <b>Notice on STATISTICS</b>: <b>msg Local AI: Chat</b> uses the <i>Faraday</i> LLM host
+                application. <i>Faraday</i> sends anonymous usage information to its vendor.
+                <i>msg Research</i> explicitly checked this communication in 2024/02 and
+                considers it harmless from a GDPR point of view, as no personal
+                information were contained in the sent data.
+                <p/>
+                <b>Notice on CLOUD</b>: <b>msg Local AI: Chat</b> uses the <i>Faraday</i> LLM host
+                application. <i>Faraday</i> provides the possibility to create an account in
+                the Cloud on <tt>faraday.dev</tt>, login to it from within the application,
+                and use this account to upload and share chats and AI characters via
+                the Cloud. For the intended use of <b>msg Local AI: Chat</b> none of this is
+                functionality required or even recommended. The user is in charge when
+                using this additional functionality of <i>Faraday</i>.
+                <p/>
+                <b>Notice on CONTENT</b>: <b>msg Local AI: Chat</b> uses <i>uncensored</i> LLMs which were
+                trained by <i>Mistral AI</i> with huge amounts of unknown, publicly available
+                data from the Internet. Hence the AI characters responses contain all
+                type of public information and in an entirely <i>unfiltered</i> format. The
+                user is responsible to treat the responses with care and especially
+                always consider and evaluate the responses in the context of the current
+                law and current social morality.
+                <p/>
+                <b>Notice on QUALITY</b>: <b>msg Local AI: Chat</b> is based on the decent but rather
+                small Open-Source LLM <i>Mistral 7B</i> in order to run even on computers
+                with very constrained RAM and CPU resources. As a consequence, the
+                overall response quality obviously is noticeably reduced in contrast
+                to state-of-the-art chat-bots, like the commercial <i>GPT-3.5/GPT-4</i> based
+                <i>OpenAI ChatGPT</i>.
+            </div>
+            <div class="right box-light">
+                <img class="screenshot dropshadow" src="images/installer-info.png"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="left box-light">
+                <img class="screenshot dropshadow" src="images/installer-features.png">
+            </div>
+            <div class="right box-gradient">
+                <p/>
+                <b>msg Local AI: Chat</b> is intended both as a learning application for
+                Generative AI Prompt Engineering and as a production application for
+                leveraging from generic text-based generative AI use-cases under full
+                offline-first and GDPR-compliance aspects.
+                <p/>
+                During installation the installer will download between 4GB and 16GB
+                of LLM data from the <i>HuggingFace</i> portal, depending on the particular
+                features you selected during installation.
+                <p/>
+                <b>NOTICE</b>: Please be patient, the download will require many minutes, depending
+                on how Internet connectivity. In case it breaks because of timeouts, just
+                repeat the step.
+            </div>
+        </div>
+        <div class="row">
+            <div class="left box-gradient">
+                After installation, you find an icon named "msg Local AI Chat" on your
+                desktop to run the <i>Faraday</i> LLM host application. After a short opt-in
+                dialog of the <i>Faraday</i> vendor, you can select the particular
+                AI character.
+                <p/>
+                You have 24 pre-defined AI characters available.
+                Each AI character has a name based on its use-case and the language
+                is speaks below its name. Click on the AI character to open a dialog
+                with it.
+            </div>
+            <div class="right box-dark">
+                <img class="screenshot dropshadow" src="images/faraday-home.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="right box-dark">
+                <img class="screenshot dropshadow" src="images/faraday-translator.png">
+            </div>
+            <div class="left box-gradient">
+                All AI characters not tagged with "GP" (general purpose) are
+                instruct-based and primed to a particular use-case through
+                a pre-configured system prompt (which can be found on the right
+                sidebar under "Scenario").
+                <p/>
+                Do not chat with those
+                instruct-based AI characters by asking questions. Instead,
+                enter the request directly. For instance, for the <i>Translator (EN-DE)</i>
+                AI character, directly enter your English text to be translated to
+                German.
+                <p/>
+                Only the two "GP" (general purpose) AI characters named
+                "Assistant" are chat-based and hence accept full question/answer
+                dialog sessions. But beware of the above notice: Mistral 7B is
+                an excellent small LLM, but cannot fully compete with ChatCPT, of course!
+                <p/>
+                <b>NOTICE</b>: just be patient on your initial request after
+                entering an AI character, as the underlying
+                LLM first has to be loaded into memory by <i>Faraday</i>.
+            </div>
+        </div>
+        <div class="row">
+            <div class="left box-gradient">
+                <b>COPYRIGHT &amp; LICENSES</b>
+                <p class="left-aligned"/>
+                <b>Faraday</b> (Host Application) is Copyright &copy; 2023-2024 Ahoy Labs, Inc.
+                Faraday distributed as freely available software.
+                <p/>
+                <b>Mistral 7B</b> (LLM) is Copyright &copy; 2023-2024 Mistral AI.
+                Mistral 7B is distributed as Open Source under Apache 2.0 license.
+                <p/>
+                <b>msg Local AI: Chat</b> (Configuration &amp; Installer) is Copyright &copy; 2024 msg systems ag.
+                msg Local AI: Chat is distributed as Open Source under Apache 2.0 license.
+            </div>
+            <div class="right box-dark">
+                <b>CREDITS &amp; THANKS</b>
+                <p class="left-aligned"/>
+                Many thanks to <i>Ahoy Labs, Inc.</i> for their awesome <i>Faraday</i> LLM host application
+                and to <i>Mistral AI</i> for their excellent <i>Mistral 7B</i> LLM. Your work
+                allows others to leverage from useful AI aspects without large constraints.
+            </div>
+        </div>
+        <div class="row">
+            <div class="left box-dark">
+                <b>COPYRIGHT</b>
+                <p class="left-aligned"/>
+                Copyright &copy; 2023-2024<br/>
+                msg Research, msg systems ag<br/>
+                All Rights Reserved.
+            </div>
+            <div class="right box-gradient">
+                <b>CONTACT</b>
+                <p class="left-aligned"/>
+                msg Research, msg systems ag<br/>
+                Robert-Bürkle-Str. 1<br/>
+                85737 Ismaning/Munich<br/>
+                GERMANY.
+                <p class="left-aligned"/>
+                Email: <a href="mailto:research@msg.group">research@msg.group</a><br/>
+                Home: <a href="http://www.msg.group/">www.msg.group</a>
+            </div>
+        </div>
+    </body>
+</html>

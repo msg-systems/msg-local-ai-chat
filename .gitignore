@@ -1,3 +1,4 @@
 02-Models/*.gguf
 04-Runtime/*.exe
 06-Installer/Output
+08-Website/node_modules

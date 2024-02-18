@@ -1,0 +1,41 @@
+##
+##  gh-pages.yml -- Github Action for Github Pages Deployment
+##
+
+name: Deploy to Github Pages
+
+on:
+    push:
+        branches: [ main ]
+
+permissions:
+    contents: read
+    pages:    write
+    id-token: write
+
+concurrency:
+    group: "pages"
+    cancel-in-progress: false
+
+jobs:
+    deploy:
+        environment:
+            name: github-pages
+            url:  ${{ steps.deployment.outputs.page_url }}
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Checkout
+                uses: actions/checkout@v3
+            -   name: Build Website
+                working-directory: 08-Website
+                run: npm install --omit=dev
+            -   name: Setup Github Pages
+                uses: actions/configure-pages@v3
+            -   name: Upload Github Pages
+                uses: actions/upload-pages-artifact@v2
+                with:
+                    path: "08-Website"
+            -   name: Deploy GitHub Pages
+                id:   deployment
+                uses: actions/deploy-pages@v2
+
