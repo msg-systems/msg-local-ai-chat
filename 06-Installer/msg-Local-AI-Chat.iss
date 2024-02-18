@@ -1,5 +1,5 @@
 ;;
-;;  msg-Local-AI.iss -- Inno Setup Installer Configuration for msg Local AI
+;;  msg-Local-AI-Chat.iss -- Inno Setup Installer Configuration for msg Local AI
 ;;  Copyright (c) 2024 msg Research, msg systems ag
 ;;  Distributed under Apache 2.0 license
 ;;
