@@ -28,15 +28,13 @@ jobs:
                 uses: actions/checkout@v3
             -   name: Build Website
                 working-directory: 08-Website
-                run: npm install && npm run build
+                run: npm install && npm run build && npm run clean
             -   name: Setup Github Pages
                 uses: actions/configure-pages@v3
             -   name: Upload Github Pages
                 uses: actions/upload-pages-artifact@v2
                 with:
-                    path: |
-                        08-Website
-                        !08-Website/node_modules
+                    path: "08-Website"
             -   name: Deploy GitHub Pages
                 id:   deployment
                 uses: actions/deploy-pages@v2
