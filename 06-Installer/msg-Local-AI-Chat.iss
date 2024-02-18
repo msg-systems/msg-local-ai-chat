@@ -8,7 +8,7 @@
 #define MyAppName            "msg Local AI Chat"
 #define MyAppFileName        "msg-Local-AI-Chat"
 #define MyAppPublisher       "msg Research, msg systems ag"
-#define MyAppVersion         "0.9.1"
+#define MyAppVersion         "0.9.2"
 
 ;;  packaging information
 #define FaradayVersion       "0.14.4"
